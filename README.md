@@ -1,2 +1,1 @@
-# scratchingPost
-Mock Dating site for Web Dev bootcamp
+TinDog Starting Files
