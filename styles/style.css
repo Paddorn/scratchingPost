@@ -16,7 +16,7 @@ h1
 {
   padding: 3% 15%;
 }
-.splash
+.img-fluid
 {
-  width: 45vw;
+  max-width: 45vw;
 }
