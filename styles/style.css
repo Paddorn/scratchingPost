@@ -1,0 +1,18 @@
+/* Fonts used
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+h1
+{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title
+{
+  background-color: #ff4c68;
+}
+.splash
+{
+  width: 45vw;
+}
