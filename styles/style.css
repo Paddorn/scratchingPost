@@ -9,8 +9,7 @@ h1
 h3
 {
   font-family: "Montserrat-Bold", sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 p
 {
@@ -87,4 +86,40 @@ body
 .icon:hover
 {
   color: #ff4c68;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials
+{
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+
+
+}
+.testimonialText
+{
+  color: #FFF;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonialName
+{
+  color: #fff;
+  font-weight: lighter;
+}
+
+.testimonialImage
+{
+  width: 15%;
+  margin: 20px;
+}
+
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
