@@ -122,4 +122,16 @@ body
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
+
+}
+.pressLogo
+{
+  margin:5px 20px;
+  width: 10%
+}
+
+.carousel-item
+{
+  border-radius: 8%;
+  padding: 5%;
 }

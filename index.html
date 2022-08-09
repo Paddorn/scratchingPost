@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+r<html lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -88,22 +88,60 @@
     <!-- Testimonials section, using boostrap -->
 
     <section id = "testimonials">
-      <h3 class="testimonialText">Thanks to Scratching Post I don't have to be alone when I search for the dinner I leave on my ungrateful humans doorstep. I found an amazing Tortie adventure partner!</h3>
-      <img class = "testimonialImage" src="images/maui.png" alt="cat-profile">
-      <em class="testimonialName ">Maui, Florida</em>
+      <div id="testimonialCarousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-color:#ff4c68;">
+            <h3 class="testimonialText">Thanks to Scratching Post I don't have to be alone when I search for the dinner I leave on my ungrateful humans doorstep. I found an amazing Tortie adventure partner!</h3>
+            <img class = "testimonialImage" src="images/maui.png" alt="First Slide" />
+            <em class="testimonialName ">Maui, Florida</em>
+          </div>
+          <div class="carousel-item" style="background-color: #ff4c68">
+            <h3 class="testimonialText">My cat used to be so lonely, but with Scratching Post's help, they've found the love of their life. I think.</h3>
+            <img class = "testimonialImage" src="images/lady-img.png" alt="Second Slide" />
+            <em class="testimonialName">Beverly, Illinois</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--<div id = "testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class = "carousel-inner">
+          <div class = "carousel-item active" style="background-color: #ff4c68;">
+            <h3 class="testimonialText">Thanks to Scratching Post I don't have to be alone when I search for the dinner I leave on my ungrateful humans doorstep. I found an amazing Tortie adventure partner!</h3>
+            <img class = "testimonialImage" src="images/maui.png" alt="First Slide" />
+            <em class="testimonialName ">Maui, Florida</em>
+          </div>
+          <div class = "carousel-item" style="background-color: #ff4c68;">
+            <h3 class="testimonialText">My cat used to be so lonely, but with Scratching Post's help, they've found the love of their life. I think.</h3>
+            <img class = "testimonialImage" src="images/lady-img.png" alt="Second Slide" />
+            <em class="testimonialName">Beverly, Illinois</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span = class "sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span = class "sr-only">Next</span>
+        </a>
+      </div>-->
 
-      <h3 class="testimonialText">My cat used to be so lonely, but with Scratching Post's help, they've found the love of their life. I think.</h3>
-      <img class="testimonialImage" src="images/lady-img.png" alt="lady-profile">
-      <em class="testimonialName">Beverly, Illinois</em>
     </section>
 
     <!-- Press section, using bootstrap -->
 
     <section id="press">
-      <img src="images/TechCrunch.png" alt="tc-logo">
-      <img src="images/tnw.png" alt="tnw-logo">
-      <img src="images/bizinsider.png" alt="biz-insider-logo">
-      <img src="images/mashable.png" alt="mashable-logo">
+      <img class= "pressLogo" src="images/TechCrunch.png" alt="tc-logo">
+      <img class= "pressLogo" src="images/tnw.png" alt="tnw-logo">
+      <img class= "pressLogo" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class= "pressLogo" src="images/mashable.png" alt="mashable-logo">
 
     </section>
 
