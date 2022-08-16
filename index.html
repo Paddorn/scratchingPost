@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-r<html lang="en">
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -48,7 +48,7 @@ r<html lang="en">
 
           <div class="row">
             <div class="col-lg-6">
-              <h1>Meet new and interesting cats nearby</h1>
+              <h1 class="bigHeading">Meet new and interesting cats nearby</h1>
               <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"> Download</i></button>
               <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fa-brands fa-google-play">Download</i></button>
             </div>
@@ -61,28 +61,26 @@ r<html lang="en">
 
     <!-- Feature section, using bootstrap -->
     <section id="features">
-    <div class="row">
-      <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-circle-check fa-4x"></i>
-        <h3> Easy to use.</h3>
-        <p> So easy, even your cat can do it</p>
+      <div class="containerFluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-circle-check fa-4x"></i>
+            <h3 class="featureTitles"> Easy to use.</h3>
+            <p class="featuresText"> So easy, even your cat can do it</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-bullseye fa-4x"></i>
+            <h3 class="featureTitles">Elite Clientele</h3>
+            <p class="featuresText">We have all the cats, the greatest cats</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fa-solid fa-heart fa-4x"></i>
+            <h3 class="featureTitles">Guaranteed to Work.</h3>
+            <p class="featuresText">Find the love of your cat's life or your money back!</p>
+          </div>
+        </div>
       </div>
-
-      <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-bullseye fa-4x"></i>
-        <h3>Elite Clientele</h3>
-        <p>We have all the cats, the greatest cats</p>
-      </div>
-
-
-      <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-heart fa-4x"></i>
-        <h3>Guaranteed to Work.</h3>
-        <p>Find the love of your cat's life or your money back!</p>
-      </div>
-
-    </div>
-
     </section>
 
     <!-- Testimonials section, using boostrap -->
@@ -90,15 +88,17 @@ r<html lang="en">
     <section id = "testimonials">
       <div id="testimonialCarousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h3 class="testimonialText">Thanks to Scratching Post I don't have to be alone when I search for the dinner I leave on my ungrateful humans doorstep. I found an amazing Tortie adventure partner!</h3>
-            <img class = "testimonialImage" src="images/maui.png" alt="First Slide" />
-            <em class="testimonialName ">Maui, Florida</em>
-          </div>
-          <div class="carousel-item">
-            <h3 class="testimonialText">My cat used to be so lonely, but with Scratching Post's help, they've found the love of their life. I think. Unfortunatly the amount of birds, mice and lizards at my door step have increased..</h3>
-            <img class = "testimonialImage" src="images/lady-img.png" alt="Second Slide" />
-            <em class="testimonialName">Beverly, Illinois</em>
+          <div class="containerFluid">
+            <div class="carousel-item active">
+              <h3 class="testimonialText">Thanks to Scratching Post I don't have to be alone when I search for the dinner I leave on my ungrateful humans doorstep. I found an amazing Tortie adventure partner!</h3>
+              <img class = "testimonialImage" src="images/maui.png" alt="First Slide" />
+              <em class="testimonialName ">Maui, Florida</em>
+            </div>
+            <div class="carousel-item">
+              <h3 class="testimonialText">My cat used to be so lonely, but with Scratching Post's help, they've found the love of their life. I think. Unfortunatly the amount of birds, mice and lizards at my door step have increased..</h3>
+              <img class = "testimonialImage" src="images/lady-img.png" alt="Second Slide" />
+              <em class="testimonialName">Beverly, Illinois</em>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
@@ -124,7 +124,7 @@ r<html lang="en">
 
     <!-- Pricing section, using bootstrap -->
     <section  id="pricing">
-      <h2>A Plan for All Your Feline Needs!</h2>
+      <h2 class="sectionHeading">A Plan for All Your Feline Needs!</h2>
       <p> Simple and affordable price plans for you and your cat</p>
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
@@ -183,13 +183,13 @@ r<html lang="en">
     <!-- Call to action -->
 
     <section id="cta">
-
-      <h3 class="ctaHeading">Find the True Love of Your Cat's Life Today</h3>
-      <br/>
-      <br/>
-      <button type="button" class="btn btn-lg btn-dark"><i class="fa-brands fa-apple download-button">Download</i></button>
-      <button type="button" class="btn btn-lg btn-light"><i class="fa-brands fa-google-play download-button">Download</i></button>
-
+      <div class="containerFluid">
+        <h3 class="bigHeading">Find the True Love of Your Cat's Life Today</h3>
+        <br/>
+        <br/>
+        <button type="button" class="btn btn-lg btn-dark"><i class="fa-brands fa-apple download-button">Download</i></button>
+        <button type="button" class="btn btn-lg btn-light"><i class="fa-brands fa-google-play download-button">Download</i></button>
+      </div>
     </section>
 
     <footer id ="footer">
